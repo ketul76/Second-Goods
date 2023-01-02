@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 11px 0;
+}
+.logo-name h1{
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #388186;
+}
+.menu-bar{
+    display: none;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    list-style: none;
+    align-items: center;
+}
+.nav-lists{
+    display: flex;
+    gap: 50px;
+}
+.profile{
+    display: flex;
+    gap: 24px;
+}
+.dropdown{
+    display: flex;
+    gap: 6px;
+}
+ul li a{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.015em;
+    color: #2E2B2B;
+    text-decoration: none;
+}
+/* header css end */
+
+/* Home css start */
+    .home{
+        height: 241px;
+        background: url(./discover-images/home-bar.svg);
+        background-repeat: no-repeat;
+    }
+    .home-title{
+        padding-left: 200px;
+        padding-top: 90px;
+    }
+    .home-title h1{
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 46px;
+        letter-spacing: -0.015em;
+        color: #FDF6F6;
+    }
+
+/* Home css End */
+
+/* aside start */
+input[type="radio"]:checked { 
+    accent-color: #7367F0;
+    box-shadow: 0px 2px 4px rgba(115, 103, 240, 0.4); 
+}
+aside{
+    margin-top: 50px;
+}
+.products{
+    border: 1px solid rgba(191, 191, 191, 0.5);
+    border-radius: 6px;
+    width: 214px;
+    background: #E5E5E5;
+}
+.products h2{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #000000;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 6px;
+}
+.product-list{
+    padding-left: 25px;
+}
+.product-list label,.product-list h3{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #000000;
+}
+.view-more{
+    display: flex;
+    gap: 5px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    padding-bottom: 6px;
+}
+.line1{
+    width: 10px;
+    height: 0px;
+    border: 1px solid #000000;
+    transform: rotate(1.12deg);
+}
+.price{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    gap: 4px;
+}
+.price ::placeholder{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.8);
+    padding-left: 16px;
+    padding-right: 14px;
+}
+.price input{
+    width: 75px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #BFBFBF;
+    border-radius: 10px;
+}
+.apply-btn button{
+    background: #18A0FB;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    padding: 10px 22px;
+    border: none;
+}
+.apply-btn{
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+}
+
+/* aside end */
+
+main{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.lists{
+    margin-top: 50px;
+   width: 836px;
+}
+.search-bar{
+   position: relative;
+   background: #FFFFFF;
+}
+.search-bar input{
+    width: 836px;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid #B9B9C3;;
+}
+.search-bar ::placeholder{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #B9B9C3;
+    padding-left: 15px;
+}
+.search-img{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* section Two start */
+.categories-lists{
+    width: 836px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #B9B9C3;
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: flex-end;
+}
+.categories-lists h3{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #000000;
+}
+.sortby{
+    display: flex;
+    gap: 10px;
+    padding-right: 7px;
+}
+/* section cards */
+.whislist{
+    display: flex;
+    margin-top: 23px;
+    gap: 37px;
+}
+.cards{
+    width: 253.25px;
+    height: 428px;
+    background: #FFFFFF;
+    border: 0.844182px solid #DFDFDF;
+    border-radius: 5.06509px;
+}
+.product-img{
+    position: relative;
+    padding: 17px 21.25px 0 20px;
+}
+.view img{
+    padding: 8px 6.74px 9.74px 10px;
+}
+.view{
+    position: absolute;
+    top: 17px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 0px 6px 0px 15px;
+    width: 40px;
+    height: 35px;
+}
+.card-title{
+    padding: 0 20px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-title p{
+    font-weight: 400;
+    font-size: 11.8185px;
+    line-height: 18px;
+    color: #5E5873;
+}
+.card-title h3{
+    font-weight: 500;
+    font-size: 14.0789px;
+    line-height: 18px;
+    color: #5E5873;
+}
+.rating{
+    display: flex;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 20px;
+}
+.price h2{
+    font-weight: 700;
+    font-size: 15.1953px;
+    line-height: 18px;
+    color: #5E5873;
+}
+.price p{
+    font-weight: 400;
+    font-size: 11.8185px;
+    line-height: 18px;
+    color: #5E5873;
+}
+.days,.place{
+    display: flex;
+    padding: 4px 20px;
+    gap: 8px;
+}
+.days p,.place p{
+    font-weight: 500;
+    font-size: 11.8185px;
+    line-height: 18px;
+    color: #5E5873;
+}
+.msg-whislist{
+    display: flex;
+    align-items: center;
+}
+.message{
+    width: 52.34px;
+    height: 42.21px;
+    background: #FDF6F6;
+    border-radius: 0px 0px 0px 5.06509px;
+    padding: 12.66px 17.77px;
+}
+.whislist-btn button{
+    background: #388186;
+    border-radius: 0px 0px 5.06509px 0px;
+    padding: 12.21px 77px;
+    border: none;
+    font-weight: 600;
+    font-size: 11.8185px;
+    line-height: 18px;
+    color: #FDF6F6;
+}
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+    ul{
+        gap: 25px;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .nav-lists{
+        display: none;
+    }
+    .menu-bar{
+        display: block;
+    }
+    .home-title{
+        padding: 50px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .profile{
+        display: none;
+    }
+}
