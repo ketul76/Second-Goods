@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Montserrat';
+  font-style: normal;
+}
+button:hover
+{
+  background-color: #180c0cad !important;
+  cursor: pointer;
 }
 header{
     padding: 11px 0;
@@ -80,6 +91,7 @@ aside{
     border: 1px solid rgba(191, 191, 191, 0.5);
     border-radius: 6px;
     width: 214px;
+    height: 1360px;
     background: #E5E5E5;
 }
 .products h2{
@@ -216,6 +228,7 @@ main{
     display: flex;
     margin-top: 23px;
     gap: 37px;
+    padding-bottom: 55px;
 }
 .cards{
     width: 253.25px;
@@ -311,9 +324,69 @@ main{
     line-height: 18px;
     color: #FDF6F6;
 }
+/* end */
+
+/* footer */
+
+footer{
+    background: #2E2B2B;
+  }
+  footer h1{
+    text-align: center;
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.015em;
+    color: #FDF6F6;
+  }
+  .footer{
+    padding-top: 100px;
+  }
+  .line2{
+    padding-top: 32px;
+    padding-bottom: 100px;
+  }
+  .line2 img{
+    width: 100%;
+    padding: 0 125px;
+  }
+  .social-media-icons{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    padding-bottom: 30px;
+  }
+  footer h3{
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    color: rgba(255, 255, 255, 0.8);
+    padding-bottom: 120px;
+  }
+/* footer */
+/* Footer css End */
 
 
 
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .categories-lists{
+        gap: 0;
+    }
+    .categories-lists h3{
+        font-size: 10px;
+    }
+}
 
 
 
@@ -339,4 +412,43 @@ main{
     .profile{
         display: none;
     }
+    .categories-lists h3{
+        font-size: 8px;
+    }
 }
+
+@media screen and (max-width: 560px) {
+    aside{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .search-bar input{
+        width: 100%;
+    }
+    .categories-lists{
+        width: 100%;
+    }
+    .whislist{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 1100px) {
+    .main{
+        justify-content: flex-start;
+    }
+    .lists{
+        width: 100%;
+        padding: 10px;
+    }
+    aside{
+        width: 100%;
+    }
+}
+
+
+

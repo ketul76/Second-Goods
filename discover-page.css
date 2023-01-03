@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Montserrat';
+  font-style: normal;
+}
+button:hover
+{
+  background-color: #180c0cad !important;
+  cursor: pointer;
+}
+header{
+    background: rgba(0, 0, 0, 0.0001);
+    padding: 11px 0;
+}
+.logo-name h1{
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #388186;
+}
+.menu-bar{
+    display: none;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    list-style: none;
+    align-items: center;
+}
+.nav-lists{
+    display: flex;
+    gap: 50px;
+}
+.profile{
+    display: flex;
+    gap: 24px;
+}
+.dropdown{
+    display: flex;
+    gap: 6px;
+}
+ul li a{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.015em;
+    color: #2E2B2B;
+    text-decoration: none;
+}
+/* header css end */
+
+/* navigation start */
+.navigation{
+    /* background: #E5E5E5; */
+    padding: 45px 0;
+    display: flex;
+    gap: 14px;
+    padding-left: 245px;
+}
+.navigation h2{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #5E5873;
+}
+/* navigation end */
+
+/* product-info start */
+.product-info{
+    width: 1080px;
+    height: 878px;
+    background: #FFFFFF;
+    border: 1px solid #BFBFBF;
+    border-radius: 6px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+}
+.see-other-btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 76px;
+}
+.see-other-btn button{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #18A0FB;
+    border-radius: 24px;
+    padding: 10px 22px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.4px;
+    color: #18A0FB;
+}
+.images-sections{
+    padding-top: 37px;
+    padding-left: 42px;
+}
+.row-img{
+    display: flex;
+    gap: 36px;
+    padding-top: 24px;
+}
+/* --------------------------------- */
+
+.product-description{
+    padding-top: 38px;
+}
+.product-description h1{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 21px;
+    color: #5E5873;
+}
+.reviews{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-top: 12px;
+}
+.reviews p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #5E5873;
+}
+.product-description h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 21px;
+    color: #5E5873;
+    padding: 25px 0;
+}
+/* --- */
+.delivery{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    padding-bottom: 27px;
+}
+.delivery-detail{
+    display: flex;
+    gap: 10px;
+}
+.delivery-detail p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #5E5873;
+}
+/* ---- */
+.product-description h3{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #5E5873;
+    padding-bottom: 8px;
+}
+.product-description h6{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.015em;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+/* --- */
+.product-description h4{
+    padding-bottom: 3px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 21px;
+    color: #5E5873;
+}
+.category{
+    display: flex;
+    gap: 44px;
+    padding-bottom: 15px;
+}
+.category button{
+    padding: 1px 9px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7367F0;
+    background: rgba(115, 103, 240, 0.12);
+    border-radius: 17px;
+    border: none;
+}
+.size{
+    padding-left: 40px;
+}
+.size-measure{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    gap: 70px;
+}
+.size-measure p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+.circle{
+    width: 17px;
+    height: 17px;
+    background: #111214;
+    border-radius: 50%;
+}
+.rental{
+    position: relative;
+}
+.rental input{
+    width: 260px;
+    height: 38px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.rental{
+    padding-top: 35px;
+}
+.rental ::placeholder{
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #B9B9C3;
+}
+.rental label{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #5E5873;
+}
+.rental .date-img{
+    position: absolute;
+    top: 62px;
+    left: 230px;
+}
+.rent{
+    display: flex;
+    gap: 30px;
+}
+.checkmark-img{
+    padding-top: 55px;
+}
+/* ----------------------- */
+.cart-rent-btns{
+    padding-top: 65px;
+    display: flex;
+    gap: 21px;
+}
+.cart-rent-btns button:hover{
+    background: #3C9099 !important;
+    color: #FFFFFF;
+}
+.cart-rent-btns button{
+    border: 1px solid #3C9099;
+    border-radius: 24px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.4px;
+    color: #388186;
+    padding: 10px 22px;
+    background: transparent;
+}
+/* product-info end */
+
+/* Owner Section Start */
+    .owner{
+        width: 1081px;
+        height: 220px;
+        background: #FFFFFF;
+        border: 1px solid #BFBFBF;
+        border-radius: 6px;
+        margin-top: 39px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+    .owner-img{
+        padding-left: 45px;
+    }
+    .name{
+        gap: 15px;
+        display: flex;
+        align-items: flex-end;
+        padding-bottom: 10px;
+    }
+    .name h3{
+        font-weight: 600;
+        font-size: 18.7451px;
+        line-height: 16px;
+        color: #5E5873;
+    }
+    .name button{
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+        color: #FF9F43;
+        padding: 1px 9px;
+        background: rgba(255, 159, 67, 0.12);
+        border-radius: 17px;
+        border: none;
+    }
+    .status{
+        display: flex;
+        gap: 12px;
+        padding-bottom: 10px;
+    }
+    .status p{
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        letter-spacing: 0.4px;
+        color: #000000;
+    }
+    .msg-btn button{
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        letter-spacing: 0.4px;
+        color: #388186;
+        padding: 10px 22px;
+        border: 1px solid #3C9099;
+        border-radius: 24px;
+    }
+/* Owner Section End */
+
+/* Product-Reviews Start */
+    .product-reviews{
+        background: #FFFFFF;
+        border: 1px solid #BFBFBF;
+        border-radius: 6px;
+        width: 1081px;
+        height: 783px;
+        margin-top: 38px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .product-reviews h2{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 21px;
+        color: #5E5873;
+        padding-top: 48px;
+        padding-left: 46px;
+        padding-bottom: 43px;
+    }
+    .product-review{
+        padding-left: 46px;
+        display: flex;
+        gap: 37px;
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+    .line{
+        padding-left: 37px;
+    }
+    .product-review h3{
+        font-weight: 600;
+        font-size: 18.7451px;
+        line-height: 16px;
+        color: #5E5873;
+        padding-bottom: 3px;
+    }
+    .product-review p{
+        font-weight: 300;
+        font-size: 14.0588px;
+        line-height: 23px;
+        letter-spacing: -0.015em;
+        color: #000000;
+    }
+/* Product-Reviews End */
+
+
+  /* footer */
+
+  footer{
+    background: #2E2B2B;
+  }
+  footer h1{
+    text-align: center;
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.015em;
+    color: #FDF6F6;
+  }
+  .footer{
+    padding-top: 100px;
+  }
+  .line2{
+    padding-top: 32px;
+    padding-bottom: 100px;
+  }
+  .line2 img{
+    width: 100%;
+    padding: 0 125px;
+  }
+  .social-media-icons{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    padding-bottom: 30px;
+  }
+  footer h3{
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    color: rgba(255, 255, 255, 0.8);
+    padding-bottom: 120px;
+  }
+/* footer */
+/* Footer css End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query start */
+
+
+
+@media screen and (max-width: 992px) {
+    ul{
+        gap: 25px;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .nav-lists{
+        display: none;
+    }
+    .menu-bar{
+        display: block;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .navigation{
+        padding-left: 0;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+    .navigation h2{
+        font-size: 14px;
+    }
+    .product-info{
+        flex-direction: column;
+        align-items: center;
+    }
+    .images-sections{
+        padding-left: 0;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 400px) {
+    .profile{
+        display: none;
+    }
+    .row-img img,.img-1{
+        width: 100%;
+        height: 100%;
+    }
+    .row-img{
+        flex-wrap: wrap;
+    }
+    .product-reviews{
+        border: none;
+    }
+    .product-review{
+        padding-left: 0;
+        gap: 15px;
+    }
+    .line{
+        padding: 0;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .product-info{
+        width: 100%;
+        height: 100%;
+        border: none;
+        padding: 25px;
+    }
+    .delivery{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .rent{
+        flex-direction: column;
+        gap: 0;
+    }
+    .category{
+        display: block;
+    }
+    .size{
+        padding-left: 0;
+    }
+    .size-measure{
+        justify-content: flex-start;
+        gap: 25px;
+    }
+    .cart-rent-btns{
+        flex-direction: column;
+    }
+    .owner{
+        width: 100%;
+        border: none;
+        gap: 20px;
+        padding: 7px;
+    }
+    .owner-img{
+        padding: 0
+    }
+    .line{
+        width: 100%;
+    }
+    .product-reviews{
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+    }
+}
