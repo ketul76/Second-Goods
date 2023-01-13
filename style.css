@@ -560,7 +560,10 @@ ul li a{
     padding-bottom: 0;
   }
   .nav-lists{
-    display: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-top: 55px;
   }
   .menu-bar{
     display: block;

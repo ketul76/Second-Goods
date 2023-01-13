@@ -19,17 +19,18 @@
               <h2>second- <br>
                 goods</h2>
             </div>
-            <div class="nav-lists">
+            <div class="nav-lists" id="menu">
               <li><a href="./index.html">Home</a></li>
               <li><a href="./discover.html">Discover</a></li>
               <li><a href="">FAQs</a></li>
               <li><a href="./discover-page.html">About Us</a></li>
             </div>
             <div class="menu-bar">
-              <img src="./images/menu-bar.png" alt="">
+              <img onclick="myFunction()" src="./images/menu-bar.png" alt="">
             </div>
           </ul>
         </nav>
+        
 
         <div class="home-text">
           <h1>How to Rent?</h1>
@@ -429,6 +430,18 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
 <script src="swiper.js"></script>
+<script>
+  function myFunction(){
+    let x = document.getElementById("menu");
+
+    if(x.style.display == "block"){
+      x.style.display = "none";
+    }
+    else{
+      x.style.display = "block"
+    }
+  }
+</script>
 
 </body>
 </html>
